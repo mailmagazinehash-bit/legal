@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>オープンソースライセンス - 旅記録</title>
+  <style>
+    :root {
+      --bg: #1a1a2e;
+      --surface: #252542;
+      --text: #e4e4e7;
+      --text-secondary: #a1a1aa;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 720px; margin: 0 auto; background: var(--surface); padding: 2rem; border-radius: 12px; }
+    h1 { font-size: 1.75rem; margin-bottom: 0.5rem; color: var(--text); }
+    h2 { font-size: 1.25rem; margin-top: 2rem; margin-bottom: 0.75rem; color: var(--accent); }
+    p, li { color: var(--text-secondary); margin-bottom: 0.5rem; }
+    .meta { color: var(--text-secondary); font-size: 0.875rem; margin-bottom: 2rem; }
+    hr { border: none; border-top: 1px solid #3f3f5a; margin: 2rem 0; }
+    .footer { text-align: center; color: var(--text-secondary); font-size: 0.875rem; margin-top: 2rem; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; }
+    th, td { padding: 0.5rem 0.75rem; text-align: left; border-bottom: 1px solid #3f3f5a; font-size: 0.875rem; }
+    th { color: var(--text); font-weight: 600; }
+    td { color: var(--text-secondary); }
+    .license-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; background: rgba(99, 102, 241, 0.2); color: var(--accent); }
+    pre { background: #1a1a2e; padding: 1rem; border-radius: 8px; font-size: 0.8rem; color: var(--text-secondary); overflow-x: auto; white-space: pre-wrap; word-wrap: break-word; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>オープンソースライセンス</h1>
+    <p class="meta">旅記録は以下のオープンソースソフトウェアを使用しています。</p>
+
+    <p>すべてのパッケージは <span class="license-badge">MIT License</span> の下で提供されています。</p>
+
+    <h2>使用パッケージ一覧</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>パッケージ</th>
+          <th>著作権者</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>React</td><td>Meta Platforms, Inc.</td></tr>
+        <tr><td>React Native</td><td>Meta Platforms, Inc.</td></tr>
+        <tr><td>Expo</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-constants</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-document-picker</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-file-system</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-font</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-haptics</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-image</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-image-manipulator</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-image-picker</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-linear-gradient</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-linking</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-print</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-router</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-sharing</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-sqlite</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>expo-status-bar</td><td>650 Industries, Inc.</td></tr>
+        <tr><td>@expo/vector-icons</td><td>Brent Vatne</td></tr>
+        <tr><td>@react-native-async-storage/async-storage</td><td>Krzysztof Borowy</td></tr>
+        <tr><td>react-native-gesture-handler</td><td>Software Mansion</td></tr>
+        <tr><td>react-native-maps</td><td>Leland Richardson</td></tr>
+        <tr><td>react-native-reanimated</td><td>Software Mansion</td></tr>
+        <tr><td>react-native-safe-area-context</td><td>Janic Duplessis</td></tr>
+        <tr><td>react-native-screens</td><td>Software Mansion</td></tr>
+        <tr><td>react-native-svg</td><td>React Native Community</td></tr>
+        <tr><td>react-native-view-shot</td><td>Ga&euml;tan Renaudeau</td></tr>
+        <tr><td>react-native-worklets</td><td>Software Mansion</td></tr>
+      </tbody>
+    </table>
+
+    <h2>MIT License</h2>
+
+    <pre>MIT License
+
+Copyright (c) [year] [copyright holder]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</pre>
+
+    <hr>
+    <p class="footer">Copyright &copy; 2026 Yuki Oga. All rights reserved.</p>
+  </div>
+</body>
+</html>
